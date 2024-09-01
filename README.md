@@ -1,2 +1,2 @@
 # ai_ball
-一顆會自己動的球, a ball which will automatically move。
+一顆會自己動的球, a ball which will automatically move。這顆球具有能量屬性This ball has power，能量越大越有可能移動The greater the power, the more likely to move，程式右邊三個屬性分別是本次移動方向、能量、每1000循環一次的計數器The three attributes on the right side of the gui are the direction, energy, and a counter that cycles every 1,000 times.。球最大鄰近值大於7並且時機符合(由時間-計數器和能量決定)才可移動The ball can move if the maximum value nearby ball is greater than 7 and power conform for the moment.
